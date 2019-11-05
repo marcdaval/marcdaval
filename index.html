@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Tarea Cambios</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/estilo.css">
+	</head>
+	<body>
+		
+		<div class="container">
+			<center>
+			<h1>Cambio de divisas a GS.</h1>
+			</center>
+			<div id="div1">
+				<label for="divisas"> <h3>Divisas</h3></label>
+				<br>
+				<div id="cotizacion">
+					<select name="" id="monedas" class="form-control">
+						<option value="6300">Dolar</option>
+						<option value="1300">Real</option>
+						<option value="130">Peso</option>
+					</select>
+					<br>
+					<input type="text" class="form-control" placeholder="Ingrese el monto" id="ingrese">
+					<button class="btn btn-success" type="submit" id="calcular"> Calcular </button>
+				</div>
+				
+			</div>
+			
+			
+			<div id="div2">
+				<div id="resultados">
+					<label for="cotizacion"> Cotizacion: </label>
+					<label for="Rcotizacion" id="Rcotizacion"></label>
+					<br>
+					<label for="monto"> Monto: </label>
+					<label for="Rmonto" id="Rmonto"></label>
+					<br>
+					<label for="cambio"> Cambio: </label>
+					<label for="Rcambio" id="Rcambio"></label>
+				</div>
+			</div>
+			
+			
+		</div>
+		
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>

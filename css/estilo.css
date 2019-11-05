@@ -1,0 +1,40 @@
+.container{
+	margin-top: 5em;
+	
+}
+
+body{
+	width: 50%; margin: 0 auto;
+
+
+}
+#div1{
+	background:#efefef;
+	margin-bottom: 10px;
+
+}
+#div2{
+	background:#efefef;
+
+}
+#ingrese{
+	width: 50%; margin-left: 3em;
+
+}
+#monedas{
+	width: 20%; margin-left: 3em;
+}
+
+#calcular{
+	margin-left: 3em;
+	margin-bottom: 1em;
+	margin-top: 4px;
+	
+}
+h3{
+	margin-left: 1em;
+}
+#resultados{
+	margin-left: 3em;
+}
+
